@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dbgen>
 <gleambook.users.count>1000</gleambook.users.count>
-<chirp.users.count>1000</chirp.users.count>
-<avg.message.count.per.gleambook.user>5</avg.message.count.per.gleambook.user>
-<avg.message.count.per.chirp.user>10</avg.message.count.per.chirp.user>
+<chirp.users.count>0</chirp.users.count>
+<avg.message.count.per.gleambook.user>500</avg.message.count.per.gleambook.user>
+<avg.message.count.per.chirp.user>0</avg.message.count.per.chirp.user>
 <seed>10</seed>
 
 <partitions>
@@ -11,15 +11,8 @@
 <partition>
 <id>1</id>
 <host>localhost</host>
-<path>/tmp/p1</path>
+<path>/home/giulliano/IdeaProjects/socialGen/p1</path>
 </partition>
-
-<partition>
-<id>2</id>
-<host>localhost</host>
-<path>/tmp/p2</path>
-</partition>
-
 </partitions>
 
 </Dbgen>
